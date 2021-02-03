@@ -25,6 +25,8 @@
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
+     <!-- CUSTOM CSS -->
+     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
@@ -97,8 +99,56 @@
                          </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-6">
-                         <ul class="nav nav-tabs" role="tablist">
+                    <div class="col-md-offset-2 col-sm-offset-2 col-md-8 col-sm-8">
+                         <div id="carousel-services" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                   <li data-target="#carousel-services" data-slide-to="0" class="active"></li>
+                                   <li data-target="#carousel-services" data-slide-to="1"></li>
+                                   <li data-target="#carousel-services" data-slide-to="2"></li>
+                                   <li data-target="#carousel-services" data-slide-to="3"></li>
+                              </ol>
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner" role="listbox">
+                                   <div class="item active">
+                                        <img src="images/consultoria.jpg" alt="..." class="carousel-image-size">
+                                        <div class="carousel-caption">
+                                             <h3 style="color: rgb(126, 126, 126);">Te ayudamos a crear una herramienta de software que te permita encontrar una solución eficaz y a la medida.</h3>
+                                        </div>
+                                   </div>
+                                   <div class="item">
+                                        <img src="images/Desarrollo.jpg" alt="..." class="carousel-image-size">
+                                        <div class="carousel-caption">
+                                             <h3>Creación de software en diferentes tecnologías basados en las necesidades de los clientes.</h3>
+                                        </div>
+                                   </div>
+                                   <div class="item">
+                                        <img src="images/Desing.jpg" alt="..." class="carousel-image-size">
+                                        <div class="carousel-caption">
+                                             <h3 style="color: black">Diseños prácticos e intuitivos, para que el uso del software sea sencillo y eficiente.</h3>
+                                        </div>
+                                   </div>
+                                   <div class="item">
+                                        <img src="images/soporte.jpg" alt="..." class="carousel-image-size">
+                                        <div class="carousel-caption">
+                                             <h3 style="color: black">Brindamos soporte técnico, para solucionar cualquier problema que se pueda presentar con el funcionamiento de nuestros productos.</h3>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- Controls -->
+                              <a class="left carousel-control" href="#carousel-services" role="button" data-slide="prev">
+                                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                   <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#carousel-services" role="button" data-slide="next">
+                                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                   <span class="sr-only">Next</span>
+                              </a>
+                         </div>
+
+                         <!-- <ul class="nav nav-tabs" role="tablist">
                               <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Consultoría</a></li>
 
                               <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Desarrollo</a></li>
@@ -106,9 +156,9 @@
                               <li><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Diseño</a></li>
 
                               <li><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Mantenimiento</a></li>
-                         </ul>
+                         </ul> -->
 
-                         <div class="tab-content">
+                         <!-- <div class="tab-content">
                               <div class="tab-pane active" id="tab01" role="tabpanel">
                                    <div class="tab-pane-item">
                                         <h2>Te ayudamos a crear una herramienta de software que te permita encontrar una solución eficaz y a la medida.</h2>
@@ -145,7 +195,7 @@
                                         <img src="images/soporte.jpg">
                                    </div>
                               </div>
-                         </div>
+                         </div> -->
                     </div>
                </div>
           </div>
